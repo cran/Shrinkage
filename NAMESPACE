@@ -1,0 +1,19 @@
+
+export(
+	"nhard.threshold.est","nfc.threshold.est",
+	"nIC.est","nBIC_estimator","nBF_estimator","nAICc_estimator",
+	"nlocfdr.est","nlocfdr.x","nlocfdr.stat",
+	"nQs.est","nscottberger.est",
+	"other.est",
+	"nQ1.est","nQ2.est","npseudo.est",
+	"nlimma.est","nlfdr1.est","nlfdr0.est"
+	)
+import(
+	methods,
+	PsiHat,
+	multtest,
+	limma 
+)
+importFrom("stats", "dexp", "dnorm", "lm", "median", "na.omit",
+             "optim", "pnorm", "qnorm", "residuals", "rnorm", "runif",
+             "t.test", "var", "wilcox.test")
